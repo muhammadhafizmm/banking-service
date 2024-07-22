@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/muhammadhafizmm/banking-service/cmd/rest"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	rest.StartServer()
 }
